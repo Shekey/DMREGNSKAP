@@ -12,7 +12,7 @@
 
 </head>
 <body>
-
+<footer>
   <div class="footer-wrapper">
     <div class="container">
       <div class="row justify-content-center">
@@ -75,10 +75,10 @@
                   <h2 class="text-center modal-text-header">Send oss en mail <i class="fa fa-envelope prefix grey-text"></i></h2>
                   <div class="md-form mb-5">
                       <div class="row">
-                          <div class="col-sm-12 col-lg-6">
+                          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                               <input type="text" id="mail-name" class="form-control" placeholder="Your name" required>
                           </div>
-                          <div class="col-sm-12 col-lg-6">
+                          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                               <input type="text" id="mail-surname" class="form-control" placeholder="Your surname" required>
                           </div>
                       </div>
@@ -176,115 +176,11 @@
       </div>
   </div>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.255637136694!2d10.786947516096568!3d59.92790018187226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e48e9bed459%3A0x5b0e093435d7f89f!2sFrydenbergveien+48%2C+0575+Oslo%2C+Norway!5e0!3m2!1sen!2sba!4v1541364890584" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.255637136694!2d10.786947516096568!3d59.92790018187226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e48e9bed459%3A0x5b0e093435d7f89f!2sFrydenbergveien+48%2C+0575+Oslo%2C+Norway!5e0!3m2!1sen!2sba!4v1541364890584" id="location-map" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- <script>
-    function callFindUs(){
-      addImage("assets/placholder-black.svg","Find us","img-footer");
-      createElementModal("h3","Finn veien til oss","footer-link-heading");
-      createElementModal("h3","Oslo:","footer-contact-text");
-      addLink("Frydenbergsveien 48 0585 Oslo","https://goo.gl/maps/GNbbtAjbqB92","footer-find-link");
-    }
-
-    function callContactUs(){
-      addImage("assets/contact-black.svg","Contact us","img-footer");
-      createElementModal("h3","Ring oss nå","footer-link-heading");
-      createElementModal("h3","Avdeling Oslo","footer-contact-text");
-      addNumber("tel:004790763994","00 47 907 63 994","footer-contact-no");
-    }
-
-    function callEmailUs(){
-      addImage("assets/mail-black.svg","Email address","img-footer-email");
-      createElementModal("h3","Send oss en mail","footer-link-heading");
-    }
-
-    function createElementModal(element,text,classAdd){
-      var para = document.createElement(element);
-      var t = document.createTextNode(text);
-      para.className = classAdd;
-      para.appendChild(t);
-      document.getElementById("modal-body").appendChild(para);
-    }
-
-    function addImage(src,title,classAdd) {
-      var para = document.createElement("img");
-      para.src = src;
-      para.title = title;
-      para.className = classAdd;
-      document.getElementById("modal-body").appendChild(para);
-    }
-
-    function addLink(title,href,classAdd) {
-      var a = document.createElement('a');
-      var linkText = document.createTextNode(title);
-      a.appendChild(linkText);
-      a.title = title;
-      a.href = href;
-      a.target = "_blank";
-      a.className = classAdd;
-      document.getElementById("modal-body").appendChild(a);
-    }
-
-     function addNumber(href,number,classAdd) {
-      var a = document.createElement('a');
-      var linkText = document.createTextNode(number);
-      a.appendChild(linkText);
-      a.href = href;
-      a.className = classAdd;
-      document.getElementById("modal-body").appendChild(a);
-    }
-
-    function removeChilden(){
-      var modalBody = document.getElementById("modal-body");
-      while (modalBody.firstChild) {
-        modalBody.removeChild(modalBody.firstChild);
-      }
-    }
-
-    function showModal(clicked_id){
-      // Get the modal
-      var modal = document.getElementById('modalFooter');
-
-      // Get the button that opens the modal
-      var btn = document.getElementById(clicked_id);
-
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks the button, open the modal
-     if(btn!==null) {
-          modal.style.display = "block";
-          console.log(btn.id);
-          switch(btn.id) {
-            case "find-us":
-             callFindUs();
-                break;
-            case "contact-us":
-              callContactUs();
-                break;
-            default:
-              callEmailUs();
-              break;
-        }
-      }
-
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-          modal.style.display = "none";
-          removeChilden();
-      }
-
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-              removeChilden();
-          }
-      }
-    }
-    </script> -->
 </body>
 </html>

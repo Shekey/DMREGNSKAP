@@ -160,11 +160,14 @@ img.img-footer-email {
   width: 80px;
   height: auto;
 }
-@media only screen and (max-width : 767px) {
+@media (max-width : 767px) {
   .modal-footer {
     padding-bottom: 30px;
   }
-  .row .col-sm-12:first-child {
+  #mail-name {
     margin-bottom: 25px;
+  }
+  #location-map {
+    display: none;
   }
 }
