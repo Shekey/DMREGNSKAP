@@ -1,0 +1,170 @@
+/* breakpoint for small devices */
+.footer-wrapper{
+  background-color: #173560;
+}
+.contact-us,
+.find-us,
+.email-us,
+.visit-us {
+  padding: 50px 0;
+  text-align: center;
+}
+.visit-us .text {
+  font-size: 16px;
+  padding-right: 20px;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+}
+.footer-text-icon {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 5px;
+}
+.fa {
+  padding: 30px 0;
+  font-size: 30px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+border-radius: 50%;
+}
+.fa-facebook::before {
+  content: "F";
+  font-size: 30px;
+}
+/* The Modal (background) */
+.modal-body .fa {
+  width:30px;
+  padding: 20px 0;
+}
+.btn-unique {
+  background-color: #880e4f!important;
+  color: #fff!important;
+}
+.btn-unique .fa {
+  font-size: 22px;
+  padding: 12px 0;
+}
+.md-form {
+  margin-bottom: 25px;
+}
+.modal-footer {
+  text-align: center;
+  border-top: none;
+  padding-bottom: 60px;
+}
+.img-footer-modal {
+  width: 30px;
+  vertical-align: bottom;
+}
+.img-footer-modal-about {
+  width: 35px;
+  vertical-align: top;
+}
+h4.modal-title {
+  font-weight: 500;
+}
+.modal-title {
+  font-weight: 600;
+  display: inline;
+  margin-right: 10px;
+}
+.md-form {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.md-form:last-child {
+  margin-bottom: 50px;
+
+}
+.md-form a {
+  font-size: 20px;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+/* The Close Button */
+
+.close {
+  font-size: 42px;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-text-header {
+  display: inline;
+  margin-right: 10px;
+  color: #666;
+}
+.modal-body {
+  text-align: center;
+}
+.form-control {
+  background-color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.footer-contact-no {
+  display: inline;
+  text-align: left;
+}
+.footer-contact-text {
+  display: inline;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.footer-contact-text.left{
+  text-align: left;
+}
+.footer-link-heading{
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.modal-body label {
+  font-size: 18px;
+}
+img.img-footer-email {
+  width: 70px;
+}
+.footer-find-link{
+  font-size: 22px;
+}
+.footer-contact-no {
+  font-size: 22px;
+}
+.footer-img-wrapper {
+  width: 80px;
+  margin: 0 auto;
+}
+.footer-img-wrapper img {
+  width: 80px;
+  height: auto;
+}
+@media only screen and (max-width : 767px) {
+  .modal-footer {
+    padding-bottom: 30px;
+  }
+  .row .col-sm-12:first-child {
+    margin-bottom: 25px;
+  }
+}
