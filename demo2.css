@@ -40,7 +40,7 @@
     background-image: url( 'assets/homePage.jpg' );
     background-repeat: no-repeat;
     background-position: center;
-    background-size: initial;
+    background-size: cover;
      width: 100%;
      height: auto;
      overflow: hidden;
@@ -57,14 +57,29 @@
     position: absolute;
     left: auto;
     right: auto;
-    top:40%; 
-    font-family: 'Playfair Display SC', serif;
+    top :42.3%; 
+    width: 566px;
+}
+.text-overlay h4 {
+    font-family: 'Bree Serif', serif;
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 500;
     color: #173560;
-    overflow-wrap: break-word;
-    width: 400px;
-
+    margin-bottom: 15px;    
+}
+.text-overlay p{
+    font-family: 'Bree Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #173560;
+    margin-bottom: 40px;
+}
+.text-overlay .btn-default {
+    background-color: #337ab7;
+    padding: 20px 40px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
 }
 #brand {
     background-image: url('assets/logo-large.svg');
