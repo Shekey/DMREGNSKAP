@@ -107,6 +107,7 @@ button.btn-default {
     border: none;
     color: #fff;
     text-transform: uppercase;
+    font-weight: 550;
 }
 button.btn-default:active,
 button.btn-default:hover {
@@ -125,6 +126,9 @@ button.btn-default:hover {
 }
 .navbar-fixed-top {
     background-color: #fff;
+}
+body.modal-open {
+    padding-right: 0 !important;
 }
 
 html,
@@ -250,8 +254,14 @@ section {
     font-size:4em;
     color:#679;
 }
-
+@media (max-width: 993px) {
+    ul.navbar-nav>li>a {
+        font-size:  16px;
+        font-weight:  650;
+    }
+}
 @media (max-width: 860px) {
+ 
     section {
         padding:20px 8px;
     }
@@ -292,6 +302,7 @@ section {
     .text-overlay .btn-default {
         padding: 10px 20px;
     }
+    
 }
 
 .bg-gray {
