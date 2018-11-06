@@ -73,7 +73,8 @@ button.navbar-toggle {
     font-weight: 500;
     color: #173560;
     margin-bottom: 15px;    
-    max-width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: 0 auto;
     text-align: center;
 
@@ -268,8 +269,18 @@ section {
     }
   
     .text-overlay {
-        top :17%; 
-        width: 80%;
+        padding-bottom: 12%;
+        padding-top: 20%;
+    }
+    .text-overlay::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(116, 169, 216,0.75);
+        z-index: 1;
     }
     .text-overlay h4 {
         font-size: 30px;
@@ -277,7 +288,7 @@ section {
         max-width: 90%;  
     }
     .text-overlay p{
-        font-size: 22px;
+        font-size: 24px;
         margin-bottom: 15px;
         max-width: 90%;  
     }
