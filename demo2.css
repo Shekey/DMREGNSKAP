@@ -46,6 +46,19 @@ button.navbar-toggle {
     opacity: 1;
 
 }
+#facebook-link {
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url('assets/facebook.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.facebook-text {
+    display: none;
+}
+
 #homeImg {
     background-image: url( 'assets/homePage.jpg' );
     background-repeat: no-repeat;
@@ -255,6 +268,9 @@ section {
     color:#679;
 }
 @media (max-width: 993px) {
+    #header-container {
+        width: 95%;
+    }
     ul.navbar-nav>li>a {
         font-size:  16px;
         font-weight:  650;
@@ -268,6 +284,10 @@ section {
     .col-33, .col-40, .col-60 {
         float:none;
         width:100%;
+    }
+    #brand {
+        width: 100px;
+        height: 40px
     }
     #header-container {
         width: 100%;
@@ -302,7 +322,6 @@ section {
     .text-overlay .btn-default {
         padding: 10px 20px;
     }
-    
 }
 
 .bg-gray {
