@@ -70,13 +70,84 @@ button.navbar-toggle {
     top: 0;
     bottom: 0;
 }
+
+#aboutImg {
+    background-image: url( 'assets/about.jpg' );
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.text-overlay-about {
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 12.12%;
+    padding-top: 12.12%;   
+}
+.text-overlay-about h4 {
+    position: relative;
+    z-index: 1;
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: #eee;
+    margin-bottom: 15px;    
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-overlay-about::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(116, 169, 216,0.75);
+    z-index: 1;
+}
+.work-days {
+    background-color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 14.12%;
+    padding-top: 14.12%;   
+    text-align: center;
+}
+.work-days-text {
+    width: 100%;;
+    position: relative;
+    z-index: 1;
+    font-family: 'Bree Serif', serif;
+}
+.work-days-text h4 {
+    font-size: 40px;
+}
+.work-days-icon {
+    background-image: url( 'assets/clock.svg' );
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
 .text-overlay {
     position: relative;
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 14.12%;
-    padding-top: 30%;   
+    padding-top: 14.12%;   
 }
 .text-overlay h4 {
     position: relative;
@@ -321,6 +392,12 @@ section {
     }
     .text-overlay .btn-default {
         padding: 10px 20px;
+    }
+
+    .text-overlay-about h4 {
+        font-size: 50px;
+        margin-bottom: 10px;  
+        max-width: 90%;
     }
 }
 
