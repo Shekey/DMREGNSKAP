@@ -146,8 +146,18 @@ button.navbar-toggle {
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 14.12%;
-    padding-top: 14.12%;   
+    padding-bottom: 20.12%;
+    padding-top: 20.12%;   
+}
+.text-overlay::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(181, 200, 216, 0.75);
+    z-index: 1;
 }
 .text-overlay h4 {
     position: relative;
@@ -370,16 +380,7 @@ section {
         padding-bottom: 12%;
         padding-top: 20%;
     }
-    .text-overlay::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background-color: rgba(116, 169, 216,0.75);
-        z-index: 1;
-    }
+   
     .text-overlay h4 {
         font-size: 30px;
         margin-bottom: 10px;  
