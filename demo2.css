@@ -132,6 +132,9 @@ button.navbar-toggle {
 .work-days-text h4 {
     font-size: 40px;
 }
+.work-days-text h4:last-child {
+    margin-top: 20px;
+}
 .work-days-icon {
     background-image: url( 'assets/clock.svg' );
     background-repeat: no-repeat;
@@ -300,6 +303,130 @@ ul.navbar-nav>li>a {
     } 
 }
 
+/*single-we-do-box */
+section.we-do {
+    background-color: #173560;
+}
+.we-do-carousel {
+    padding-top: 60px;
+}
+.we-do-description {
+    padding: 55px 0 70px;
+}
+.single-we-do-box  {
+    box-shadow:0 0 5px rgba(35,37,41,.1);
+	overflow-x:hidden;
+	margin-top: 15px;
+	opacity:1;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+
+/*we-do-description*/
+.section-header h2 {
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    font-weight: 500;
+
+}
+.single-we-do-box{
+	background:#fff;
+	min-height: 453px;
+}
+/* we-do-info */
+.we-do-info {
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+}
+.we-do-img {
+    margin-right: 5px;
+	border-radius:50%;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.we-do-topics {
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+.we-do-topics h2 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    letter-spacing: 1;
+}
+
+.we-do-topics h2 a{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+	color:#44454f;
+    font-size:20px;
+}/* we-do-info */
+
+
+/* we-do-comment */
+.we-do-comment {
+    margin-top: 14px;
+}
+.we-do-comment p{
+	color:#888;
+	font-size:16px;
+    font-family: 'Poppins', sans-serif;
+	padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}/* we-do-comment */
+
+
+/*we-do-description*/
+.single-we-do-box:hover{
+	box-shadow:0 5px 20px rgba(112,134,230,.2);
+	opacity:1;
+}
+
+/*owl carousel*/
+.owl-carousel .owl-stage {
+    position: relative;
+    padding-top: 26px;
+	padding-bottom: 40px;
+}
+
+#scroll-Top  .return-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    z-index:15;
+    color: #fff;
+    background:#7370d8;
+	border:1px solid #7370d8;
+	border-radius:5px;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	z-index: 2;
+}
+#scroll-Top  .return-to-top:hover {
+    background:#7370d8;
+    color: #fff;
+	border:1px solid #7370d8;
+	border-radius:50%;
+}
+
+
 
 /*-------- Generic styles for the page ------------------*/
 
@@ -399,6 +526,12 @@ section {
         font-size: 50px;
         margin-bottom: 10px;  
         max-width: 90%;
+    }
+    .work-days-text h4 {
+        font-size: 26px;
+    }
+    .we-do-comment p{
+        max-width: 100%;
     }
 }
 
