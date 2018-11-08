@@ -23,25 +23,14 @@
   color: #fff;
   margin-top: 5px;
 }
-.fa {
-  padding: 30px 0;
-  font-size: 30px;
-  width: 90px;
-  text-align: center;
-  text-decoration: none;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-facebook {
-background: #3B5998;
-color: white;
-border-radius: 50%;
-}
-.fa-facebook::before {
-  content: "F";
-  font-size: 30px;
-}
+/* .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased
+} */
+
 /* The Modal (background) */
 .modal-body .fa {
   width:30px;
