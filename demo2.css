@@ -703,6 +703,11 @@ section {
     .single-team-box {
         margin: 0 auto;
     }
+    .work-days-text h4:last-child {
+        width: 60%;
+        margin: 10px auto 0 auto;
+        text-align: center;
+    }
 }
 
 .bg-gray {

@@ -39,13 +39,13 @@ $(document).ready(function(){
 		$('#menu').hcSticky();
 
 
-	// 3. counter
-		$(window).on('load', function(){	
-			$('.counter').counterUp({
-				delay: 10,
-				time: 3000
-			});	
-		});
+	// // 3. counter
+	// 	$(window).on('load', function(){	
+	// 		$('.counter').counterUp({
+	// 			delay: 10,
+	// 			time: 3000
+	// 		});	
+	// 	});
 	
 	
 	// 4. owl carousel
