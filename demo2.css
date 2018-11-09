@@ -273,8 +273,8 @@ body.modal-open {
     padding-bottom: 15px;
 }
 .services-cta {
-    padding-top: 10.12%;
-    padding-bottom: 10.12%;
+    padding-top: 5.12%;
+    padding-bottom: 5.12%;
     background-color: #173560;
 }
 .services-cta .services-cta-text-wrapper .services-cta-text {
@@ -293,21 +293,17 @@ body.modal-open {
 }
 .services-cta button.btn-default {
     color: #fff;
-    background-color: transparent;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
-.services-cta button.btn-default:hover {
+/* .services-cta button.btn-default:hover {
     color: #173560;
     background-color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #173560;
 }
 .services-cta button.btn-default:hover span {
-    transition:1s;
-    -webkit-transition:1s;
-    -moz-transition:1s;
     right: -5px;
     color: #173560;
-}
+}  */
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
