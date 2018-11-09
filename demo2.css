@@ -18,6 +18,9 @@
     background-image: url('assets/logo-fixed.svg');
     padding-bottom: 10px;
 }
+#navbar a {
+    color: #173560;
+}
 .navbar-fixed-top .fa-gg {transform: rotate(360deg); }
 @keyframes slide-down {
     0% {
@@ -119,8 +122,8 @@ button.navbar-toggle {
     background-color:#fff;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 14.12%;
-    padding-top: 14.12%;   
+    padding-bottom: 5.12%;
+    padding-top: 5.12%;   
     text-align: center;
 }
 .work-days-text {
@@ -159,7 +162,7 @@ button.navbar-toggle {
 }
 /* */
 .work-days-icon {
-    background-image: url( 'assets/clock.svg' );
+    background-image: url( 'assets/clock1.svg' );
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -222,7 +225,7 @@ button.btn-default {
     z-index: 1;
     display: inherit;
     margin: 0 auto;
-    background-color: #337ab7;
+    background-color:#173560;
     padding: 20px 40px;
     border: none;
     color: #fff;
@@ -241,8 +244,8 @@ button.btn-default:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 120px;
-    height: 50px;
+    width: 140px;
+    height: 60px;
 }
 .navbar-fixed-top {
     background-color: #fff;
@@ -251,6 +254,60 @@ body.modal-open {
     padding-right: 0 !important;
 }
 
+.membership {
+    padding: 0;
+    padding-top: 5.12%;
+    padding-bottom: 5.12%;
+}
+.membership-logo {
+    max-width: 250px;
+    height: auto;
+}
+.membership-text {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: #303030;
+}
+.membership .row:first-child {
+    padding-bottom: 15px;
+}
+.services-cta {
+    padding-top: 10.12%;
+    padding-bottom: 10.12%;
+    background-color: #173560;
+}
+.services-cta .services-cta-text-wrapper .services-cta-text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 15px 10px;
+}
+.services-cta .services-cta-text-wrapper h3 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.services-cta button.btn-default {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.services-cta button.btn-default:hover {
+    color: #173560;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.services-cta button.btn-default:hover span {
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    right: -5px;
+    color: #173560;
+}
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -842,8 +899,8 @@ section {
         width:100%;
     }
     #brand {
-        width: 100px;
-        height: 40px
+        width: 110px;
+        height: 50px
     }
     #header-container {
         width: 100%;
@@ -878,6 +935,9 @@ section {
     .work-days-text h4 {
         font-size: 26px;
     }
+    .work-days-text h4:first-child {
+        font-size: 26px;
+    }
     .we-do-comment p{
         max-width: 80%;
         margin: 0 auto;
@@ -897,6 +957,17 @@ section {
         margin: 10px auto 0 auto;
         text-align: center;
     }
+}
+@media (max-width: 768px) {
+    .membership-logo {
+        display: inherit;
+        margin: 0 auto;
+    }
+    .membership-text { 
+        padding: 10px 10px 30px;
+        text-align: center;
+    }
+
 }
 
 .bg-gray {
