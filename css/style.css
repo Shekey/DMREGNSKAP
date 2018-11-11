@@ -354,7 +354,79 @@ ul.navbar-nav>li>a {
     transition: 0.8s;
     -webkit-transition:  0.8s;
 }
-
+/*-------------------------------------
+		5. About
+--------------------------------------*/
+.about-us{
+	background: #f9faff;
+	padding: 120px 0 175px;
+}
+.about-us-txt{
+	margin-top: 103px;
+}
+.about-us h2 {
+	color:#4d4e54;	
+	font-size:30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+.about-us p{
+	color:#888;	
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.7;
+	max-width: 501px;
+    margin-top: 28px;
+    margin-bottom: -18px;
+}
+.about-us-img  {
+	position: relative;
+	box-shadow: 0 10px 30px rgba(112,134,230,.2);
+	z-index: 1;
+}
+.about-us-img:before{
+	position: absolute;
+	content: " ";
+	top:55px;
+	left:-23px;
+	border: 3px solid #ebecfb;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+/*project-btn*/
+.project-btn{
+	margin-top: 49px;
+	letter-spacing: 1.2px;
+}
+a {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.project-view {
+    background: #7370d8;
+    border: 1px solid #7370d8;
+    width:185px;
+    height:52px;
+    line-height: 50px;
+    white-space: nowrap;
+   	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+   
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0;
+}
+.project-view:hover {
+    text-decoration: none;
+	color: #7370d8;
+	background: transparent;
+}/*project-btn*/
 
 /*-------------------------------------
 		9. Team
@@ -823,6 +895,114 @@ section.we-do {
 
 /* contact-right */
 
+/*-------------------------------------
+		10.	Pricing 
+--------------------------------------*/
+.pricing{
+	padding:115px 0 78px;
+}
+.pricing-content {
+    padding-top: 105px;
+}
+h2.price-head {
+    letter-spacing: 3.5px;    
+    color: #000;
+
+}
+
+/*pricing-box */
+.pricing-box{
+	background: #fcfcff;
+    text-align: center;
+    padding:0px 0px 40px;
+    border-radius: 5px;
+	margin-bottom:30px;
+	opacity:.6;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+/*pricing-header */
+.pricing-header{
+	background:#7370d8;
+	padding-top: 25px;
+    padding-bottom: 28px;
+    -webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.pricing-header h2{
+    font-size:24px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform:capitalize;
+}
+.pricing-header p{
+	color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+	text-transform:capitalize;
+}
+
+
+/* plan-lists */
+.plan-lists{
+	display: inline-grid;
+    margin-top: 28px;
+    padding-left: 0;
+    
+}
+.plan-lists li {
+    font-size: 16px;
+	line-height: 40px;
+	color:#888;
+	text-transform:capitalize;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+    transition: all 0.3s linear;
+    list-style: none;
+    text-align: center;
+}
+
+/* packeg_p */
+.packeg_p{
+	color: #fff;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    padding-top: 30px;
+    padding: 11px 0 11px;
+    -webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.packeg_p span {
+    vertical-align: 12px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-right: 5px;
+}
+.project-btn.pricing-btn a{
+	text-transform: capitalize;
+	color: #fff;
+}
+.pricing-box:hover {
+	box-shadow: 0px 0px 30px 0px rgba(115, 120, 216, 0.3);
+    opacity: 1;
+}
+.project-btn.pricing-btn a:hover{
+	color:#7370d8;
+}
 
 /*-------- Generic styles for the page ------------------*/
 
