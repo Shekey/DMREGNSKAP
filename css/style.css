@@ -407,8 +407,8 @@ a {
     transition: 0.5s ease-in-out;
 }
 .project-view {
-    background: #7370d8;
-    border: 1px solid #7370d8;
+    background: #173560;
+    border: 1px solid #173560;
     width:185px;
     height:52px;
     line-height: 50px;
@@ -424,7 +424,7 @@ a {
 }
 .project-view:hover {
     text-decoration: none;
-	color: #7370d8;
+	color: #173560;
 	background: transparent;
 }/*project-btn*/
 
@@ -917,7 +917,7 @@ h2.price-head {
     padding:0px 0px 40px;
     border-radius: 5px;
 	margin-bottom:30px;
-	opacity:.6;
+	opacity:1;
 	-webkit-transition:all 0.3s linear;
 	-moz-transition:all 0.3s linear;
 	-ms-transition:all 0.3s linear;
@@ -927,7 +927,7 @@ h2.price-head {
 
 /*pricing-header */
 .pricing-header{
-	background:#7370d8;
+	background:#173560;
 	padding-top: 25px;
     padding-bottom: 28px;
     -webkit-transition:all 0.3s linear;
@@ -938,7 +938,7 @@ h2.price-head {
 }
 .pricing-header h2{
     font-size:24px;
-    color: #000;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     text-transform:capitalize;
 }
@@ -997,12 +997,39 @@ h2.price-head {
 	color: #fff;
 }
 .pricing-box:hover {
-	box-shadow: 0px 0px 30px 0px rgba(115, 120, 216, 0.3);
+	box-shadow: 0px 0px 30px 0px rgba(23, 53, 96,0.7);
     opacity: 1;
+} */
+ .project-btn.pricing-btn a:hover{
+	color:#173560;
 }
-.project-btn.pricing-btn a:hover{
-	color:#7370d8;
+
+/* second variant of hover */
+/* .pricing-box:hover {
+    background: #173560;
+	box-shadow: 0px 0px 30px 0px rgba(23, 53, 96,0.7);
 }
+.pricing-box:hover .pricing-header {
+    background: #fff;
+
+}
+.pricing-box:hover .pricing-header h2 {
+    color:#173560;
+}
+
+.pricing-box:hover .pricing-header h3 {
+    color:#173560;
+}
+
+.pricing-box:hover .plan-lists li {
+    color:#fff;
+}
+
+.pricing-box:hover .pricing-header {
+    color:#fff;
+} */
+
+/* end of variant */
 
 /*-------- Generic styles for the page ------------------*/
 
