@@ -227,15 +227,15 @@ button.btn-default {
     margin: 0 auto;
     background-color:#173560;
     padding: 20px 40px;
-    border: none;
+    border: 1px solid #173560;
     color: #fff;
     text-transform: uppercase;
     font-weight: 550;
 }
 button.btn-default:active,
 button.btn-default:hover {
-    color: #fff;
-    background-color: #1e3fd4;
+    color: #173560;
+    background-color: transparent;
     border-color:  #1e3fd4;
 }
 
@@ -293,17 +293,9 @@ body.modal-open {
 }
 .services-cta button.btn-default {
     color: #fff;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
 }
-/* .services-cta button.btn-default:hover {
-    color: #173560;
-    background-color: #fff;
-    border: 1px solid #173560;
-}
-.services-cta button.btn-default:hover span {
-    right: -5px;
-    color: #173560;
-}  */
+
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -416,7 +408,6 @@ a {
    	text-align: center;
     color: #fff;
     text-transform: uppercase;
-   
     display: inline-block;
     text-decoration: none;
     font-size: 14px;
@@ -428,6 +419,40 @@ a {
 	background: transparent;
 }/*project-btn*/
 
+/* project btn inverse */
+.project-view-inverse{
+    background: transparent;
+    border: 1px solid #fff;
+    height:52px;
+    line-height: 50px;
+    white-space: nowrap;
+   	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.project-view-inverse:hover {
+    text-decoration: none;
+    color: #173560;
+    font-weight: 500;
+	background: #fff;
+}/*project-btn*/
+
+.text-overlay .btn.btn-default {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.text-overlay .btn.btn-default:hover {
+    color: #173560;
+    border: 1px solid #173560;
+}
 /*-------------------------------------
 		9. Team
 --------------------------------------*/
@@ -1054,6 +1079,9 @@ body {
 /* fooooter */
 footer {
     display:block;
+}
+footer a:hover {
+    text-decoration: none;
 }
 .footer-wrapper{
     background-color: #173560;
