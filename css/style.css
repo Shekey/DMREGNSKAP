@@ -1175,7 +1175,7 @@ footer a:hover {
   }
   /* The Close Button */
   
-  button.close {
+   .modal-header button.close {
     font-size: 38px;
     line-height: 0.5;
   }
