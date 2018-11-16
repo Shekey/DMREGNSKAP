@@ -420,7 +420,7 @@ a {
 }/*project-btn*/
 
 /* project btn inverse */
-.project-view-inverse{
+.project-view-i nverse{
     background: transparent;
     border: 1px solid #fff;
     height:52px;
@@ -1175,8 +1175,9 @@ footer a:hover {
   }
   /* The Close Button */
   
-  .close {
-    font-size: 42px;
+  button.close {
+    font-size: 38px;
+    line-height: 0.5;
   }
   .modal-header {
     border-bottom: none;
