@@ -832,8 +832,6 @@ section.we-do {
 .contact-form .single-contact-btn button.contact-btn:focus {
     margin-top:0px;
     outline: 0 !important;
-    border:0;
-    color: #fff;
     letter-spacing: 2.5px;
     border-radius: 0px;
     font-size:14px;
