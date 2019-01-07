@@ -259,6 +259,11 @@ body.modal-open {
     padding-top: 5.12%;
     padding-bottom: 5.12%;
 }
+
+.membership .project-btn {
+    margin-top:15px;
+}
+
 .membership-logo {
     max-width: 250px;
     height: auto;
