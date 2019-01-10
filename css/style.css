@@ -269,10 +269,11 @@ body.modal-open {
     height: auto;
 }
 .membership-text {
-    padding-top: 30px;
+    padding-top: 40px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-    color: #303030;
+    line-height: 1.7;
+    color: #888;
 }
 .membership .row:first-child {
     padding-bottom: 15px;
@@ -355,16 +356,35 @@ ul.navbar-nav>li>a {
 		5. About
 --------------------------------------*/
 .about-us{
-	padding: 120px 0 175px;
+	padding: 60px 0 115px;
+}
+.about-us.left {
+    padding: 50px 0 75px;
+}
+.about-us.left .about-us-txt p{
+    margin-bottom: 20px;
 }
 .about-us-txt{
 	margin-top: 103px;
+}
+.about-us.left .about-us-txt {
+    margin-top: 56px;
+    margin-left: 30px;
+
 }
 .about-us h2 {
 	color:#4d4e54;	
 	font-size:30px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
+}
+
+.about-us h3 {
+    color:#4d4e54;	
+	font-size:24px;
+	font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-align: center;
 }
 .about-us p{
 	color:#888;	
@@ -380,8 +400,37 @@ ul.navbar-nav>li>a {
 	box-shadow: 0 10px 30px rgba(112,134,230,.2);
 	z-index: 1;
 }
+
+.about-us-img img {
+    width: 100%;
+    height: auto;
+}
+.about-us.left .about-us-img:before{
+	content: " ";
+	left:23px;
+}
+
+.about-us.left ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about-us.left li{
+    font-family: 'Playfair Display', serif;
+    display: block;
+    padding: 12px 10px;
+    color: #000;
+    font-size: 16px;
+    border-bottom: 1px solid #888;
+}
+
+.kriterier {
+    margin-top: 30px;
+}
+
+
 .about-us-img:before{
-	position: absolute;
+    position: absolute;
 	content: " ";
 	top:55px;
 	left:-23px;
@@ -390,6 +439,7 @@ ul.navbar-nav>li>a {
 	height: 100%;
 	z-index: -1;
 }
+
 /*project-btn*/
 .project-btn{
 	margin-top: 49px;
@@ -1379,6 +1429,19 @@ section {
     .single-online-address {
         margin-bottom: 15px
     }
+    
+    .about-us.left li{
+        text-align: center;
+    }
+
+    .about-us.left .about-us-txt {
+        margin-top: 70px;
+    }
+    .about-us.left .about-us-txt { 
+        margin-left: 0;
+        text-align: center;
+    }
+    
 }
 
 .bg-gray {
