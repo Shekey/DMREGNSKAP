@@ -1074,6 +1074,33 @@ article.no-image{
 	text-transform:capitalize;
 }
 
+.text-left {
+    text-align: left !important;
+}
+
+.plan-lists .list-all {
+    padding-left: 80px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.list-all::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #173560;
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.no-image .pricing-header .packeg_p{
+    margin: 0;
+}
+
 
 /* plan-lists */
 .plan-lists{
@@ -1447,6 +1474,14 @@ section {
     }
 }
 @media (max-width: 767px) {
+
+    .plan-lists .list-all {
+        font-size: 15px;
+        padding-left: 30px;
+    }
+    .list-all::before {
+        left: 10px;
+    }
     .membership-logo {
         display: inherit;
         margin: 0 auto;
