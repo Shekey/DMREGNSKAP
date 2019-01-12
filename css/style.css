@@ -359,7 +359,7 @@ ul.navbar-nav>li>a {
 	padding: 60px 0 115px;
 }
 .about-us.left {
-    padding: 50px 0 75px;
+    padding: 115px 0 75px;
 }
 .about-us.left .about-us-txt p{
     margin-bottom: 20px;
@@ -415,19 +415,27 @@ ul.navbar-nav>li>a {
     padding: 0;
 }
 
-.about-us.left li{
+.kriterier-list li{
     font-family: 'Playfair Display', serif;
-    display: block;
-    padding: 12px 10px;
+    display: list-item;
+    margin-left: 20px;
+    padding: 7px;
     color: #000;
-    font-size: 16px;
-    border-bottom: 1px solid #888;
+    font-size: 18px;
 }
 
-.kriterier {
-    margin-top: 30px;
+.gazele-kriterier {
+    margin-top: -50px;
 }
 
+.gazele-headine {
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+.gazele-text {
+    margin-left: 25px;
+}
 
 .about-us-img:before{
     position: absolute;
@@ -1006,9 +1014,6 @@ article.no-image{
     color: #fff;
     position: relative;
     display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .category-tag:hover {
     cursor: pointer;
