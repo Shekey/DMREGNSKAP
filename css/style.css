@@ -359,7 +359,16 @@ ul.navbar-nav>li>a {
 	padding: 60px 0 115px;
 }
 .about-us.left {
-    padding: 115px 0 75px;
+    padding: 115px 0 25px;
+}
+.primary-color {
+    background: rgba(23, 53, 96);
+}
+.primary-color h2{
+    color: #fff !important;
+}
+.primary-color p{
+    color: #fff !important;
 }
 .about-us.left .about-us-txt p{
     margin-bottom: 20px;
@@ -519,7 +528,7 @@ a {
 		9. Team
 --------------------------------------*/
 .team{
-	padding: 120px 0;
+	padding: 30px 0;
 	background: #fff;
 }
 .team.team-main{
@@ -1516,9 +1525,9 @@ section {
     .single-online-address {
         margin-bottom: 15px
     }
-    
-    .about-us.left li{
-        text-align: center;
+    .kriterier-list li {
+     text-align: left;
+     margin-left: 50px;   
     }
 
     .about-us.left .about-us-txt {
