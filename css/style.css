@@ -833,7 +833,7 @@ section.we-do {
 	color: #303030;
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
-	text-transform:capitalize;
+	text-transform:none;
 	margin-bottom:40px;
 }
 /*contact-head */
@@ -920,12 +920,20 @@ section.we-do {
 	background:#fff;
 	border:1px solid #7370d8;
 }
+.contact-card {
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
 
 /*--contct button--*/
 
 /* contact-right */
 .contact-right {
     display: flex;
+    box-shadow: 0 10px 30px rgba(112,134,230,1);
+    padding-left: 50px;
 }
 
 /* contact-adress */
@@ -949,7 +957,6 @@ section.we-do {
 	margin-bottom: 14px;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 30px;
-	margin-bottom: 50px;
 }
 .contact-online-address{
 	color:#303030;
@@ -1169,6 +1176,31 @@ article.no-image{
 	color:#173560;
 }
 
+.nyttige {
+    background: #173560;
+    padding: 30px 0 40px;
+    border-bottom: 3px solid #fff;
+}
+.nyttige .heading {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nyttige .headline {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.nyttige .text {
+    color: #abaec4;
+    font-size: 17px;
+    line-height: 19px;
+}
+
 /* second variant of hover */
 /* .pricing-box:hover {
     background: #173560;
@@ -1287,10 +1319,13 @@ footer a:hover {
   h4.modal-title {
     font-weight: 500;
   }
-  .modal-title {
+  .modal-dialog .modal-title {
     font-weight: 600;
     display: inline;
     margin-right: 10px;
+  }
+  .modal-dialog a {
+      text-decoration: underline;
   }
   .md-form {
     margin-top: 20px;
@@ -1299,6 +1334,9 @@ footer a:hover {
   .md-form:last-child {
     margin-bottom: 50px;
   
+  }
+  .single-contact-box {
+      margin-top: 115px;
   }
   .md-form a {
     font-size: 20px;
