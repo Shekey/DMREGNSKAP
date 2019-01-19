@@ -932,7 +932,7 @@ section.we-do {
 /* contact-right */
 .contact-right {
     display: flex;
-    box-shadow: 0 10px 30px rgba(112,134,230,1);
+    border: 1px solid rgba(112,134,230,0.6);
     padding-left: 50px;
 }
 
