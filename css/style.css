@@ -1054,6 +1054,51 @@ article.no-image{
     background-position: center;
     background-size: cover;
 }
+.services-head {
+    text-align: center;
+}
+.services-content {
+    display: none;
+    padding: 0 12px;
+    border-left: 1px solid #173560;
+    border-right: 1px solid #173560;
+    color: #000;
+}
+.services {
+    display: none;
+}
+.services-title {
+    color: #303030;
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 12px;
+    border: 1px solid #173560;
+    position: relative;
+}
+.services-title:hover {
+    cursor: pointer;
+}
+.services:checked+label+article {
+    display: block;
+}
+.services:checked+label::after {
+    content: "";
+    background: url(../assets/arrow-up-blue.svg);
+}
+.services-title:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 15px;
+    background: url(../assets/arrow-down-blue.svg);
+    background-position: center;
+    background-size: cover;
+}
 
 /*pricing-box */
 .pricing-box{

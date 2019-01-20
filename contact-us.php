@@ -76,6 +76,7 @@
     <!-- end contact form -->
 
     <!-- footer -->
+    <div id="nyttige-comp"></div>
     <div id="footer-comp">
 
     </div>
@@ -86,6 +87,7 @@
     <script>
         $(function(){
             $("#header-comp").load('header-comp.html');
+            $("#nyttige-comp").load('nyttige-comp.html');
             $("#footer-comp").load('footer-comp.html');
             $("#contact-form").load('contact-form.html');
         });
