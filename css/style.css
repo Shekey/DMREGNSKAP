@@ -581,16 +581,32 @@ a {
 /*team-box-bg*/
 
 .team-box-bg-1{
-	background: url(../assets/images/team/team.jpg) no-repeat;
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;
 }
 .team-box-bg-2{
-	background: url(../assets/images/team/team3.jpg) no-repeat;
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;    
 }
 .team-box-bg-3{
-	background: url(../assets/images/team/team2.jpg) no-repeat;
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;    
 }
 .team-box-bg-4{
-	background: url(../assets/images/team/team3.jpg) no-repeat;
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;    
+}
+.team-box-bg-5{
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;    
+}
+.team-box-bg-6{
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;    
+}
+.team-box-bg-7{
+    background: url(../assets/noimage.png) no-repeat;
+    background-position: center;    
 }/*team-box-bg*/
 
 
@@ -600,9 +616,9 @@ a {
 	bottom: 0;
     left: 0;
     width: 100%;
-	padding: 19px 0 0px 30px;
+	padding: 19px 19px 0 30px;
 	background: rgba(23, 53, 96,.8);
-	height: 90px;
+	height: 70px;
 	-webkit-transition: .7s;
     -moz-transition: .7s;
     -ms-transition: .7s;
@@ -619,13 +635,13 @@ a {
 .team-box-inner .team-meta{
 	display:block;
 	color:#fff;
-	font-size:12px;
+	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 	-webkit-transition: .7s;
     -moz-transition: .7s;
     -ms-transition: .7s;
     -o-transition: .7s;
-    transition: .7s;
+    transition: all .7s;
 }
 a.learn-btn,
 a:hover.learn-btn,
@@ -648,7 +664,7 @@ a:active.learn-btn{
 	opacity: 1;
 }/*team-box-inner*/
 .single-team-box:hover .team-box-inner{
-	height: 100px;
+	height: 130px;
 }
 .single-team-box:hover{
 	box-shadow: 5px 5px 30px 5px rgba(65,62,126,.2);
