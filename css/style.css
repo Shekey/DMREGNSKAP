@@ -115,7 +115,7 @@ button.navbar-toggle {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(23, 53, 96);
+    background-color: #173560;
     z-index: 1;
 }
 .work-days {
@@ -362,7 +362,7 @@ ul.navbar-nav>li>a {
     padding: 115px 0 25px;
 }
 .primary-color {
-    background: rgba(23, 53, 96);
+    background: rgb(23, 53, 96);
 }
 .primary-color h2{
     color: #fff !important;
@@ -635,7 +635,6 @@ a:active.learn-btn{
     font-size:12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-    text-transform: capitalize;
     margin-top: 8px;
     padding-bottom: 18px;
     opacity:0;
@@ -719,7 +718,6 @@ section.we-do {
 /* we-do-info */
 .we-do-info {
 	font-family: 'Playfair Display', serif;
-	text-transform: capitalize;
 }
 .we-do-img {
     margin-right: 5px;
@@ -833,7 +831,6 @@ section.we-do {
 	color: #303030;
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
-	text-transform:none;
 	margin-bottom:40px;
 }
 /*contact-head */
@@ -949,7 +946,6 @@ section.we-do {
 	color: #303030;
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
-	text-transform:capitalize;
 }
 .contact-office-address p{
 	color: #303030;
@@ -1130,14 +1126,12 @@ article.no-image{
     font-size:24px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    text-transform:capitalize;
 }
 .pricing-header p{
 	color: #fff;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-	text-transform:capitalize;
 }
 
 .text-left {
@@ -1179,7 +1173,6 @@ article.no-image{
     font-size: 17px;
 	line-height: 40px;
 	color:#000;
-	text-transform:capitalize;
 	-webkit-transition:all 0.3s linear;
 	-moz-transition:all 0.3s linear;
 	-ms-transition:all 0.3s linear;
@@ -1210,7 +1203,6 @@ article.no-image{
     margin-right: 5px;
 }
 .project-btn.pricing-btn a{
-	text-transform: capitalize;
 	color: #fff;
 }
 .pricing-box:hover {
