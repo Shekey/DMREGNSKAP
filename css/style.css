@@ -279,8 +279,8 @@ body.modal-open {
     padding-bottom: 15px;
 }
 .services-cta {
-    padding-top: 5.12%;
-    padding-bottom: 5.12%;
+    padding-top: 7.12%;
+    padding-bottom: 7.12%;
     background-color: #173560;
 }
 .services-cta .services-cta-text-wrapper .services-cta-text {
@@ -558,14 +558,14 @@ a {
 	height:auto;
 }
 .team-card{
-	padding: 75px 0 0 0;
+	padding: 50px 0 0 0;
 }
 .team-card.team-mrt-70{
 	margin-top: -70px;
 }
 .single-team-box{
 	position: relative;
-	height: 352px;
+	height: 402px;
 	background-size: cover;
 	background-position: center;
 	-webkit-transition: 0.5s ease-in-out;
@@ -618,7 +618,7 @@ a {
     width: 100%;
 	padding: 19px 19px 0 30px;
 	background: rgba(23, 53, 96,.8);
-	height: 70px;
+	height: 130px;
 	-webkit-transition: .7s;
     -moz-transition: .7s;
     -ms-transition: .7s;
