@@ -1,35 +1,34 @@
 ﻿<?php
-    // // Import PHPMailer classes into the global namespace
-    // // These must be at the top of your script, not inside a function
-    // use PHPMailer\PHPMailer\PHPMailer;
-    // use PHPMailer\PHPMailer\Exception;
+    if(isset($_POST['submit'])){
+        if(isset($_REQUEST['email'])){
+        //Email information
+        $admin_email = "avdo@dmregnskap.no";
+        $email = $_REQUEST['email'];
+        $subject = 'Email from Website page';
+        $firstname = $_REQUEST['firstname'];
+        $laststname = $_REQUEST['laststname'];
+        $companyName = $_REQUEST['company-name'];
+        $phone = $_REQUEST['phone'];
+        $new = "\n";
+        $comment = $_REQUEST['comment'];
+        $comment = "Fornavn:" . $firstname . $new.
+        "Etternavn:".$laststname. $new.
+         "Selskapsnavn: " .$companyName. $new.
+         "Telefon nummer:" .$phone. $new.
+          "Message: ".$comment;
+        //send email
+        $result = mail($admin_email, "$subject", $comment, "From:" . $email);
+            if($result) {   
+                ?>
+                <script>
+                    window.location = 'http://dmregnskap.no/contact-us.php';
+                </script>
+                <?php
+            }
+        }
+    }
+ ?>
 
-    // //Load Composer's autoloader
-    // require 'vendor/autoload.php';
-    // $mail = new PHPMailer;
-    
-    // $mail->isSMTP(); 
-    // $mail->Host = 'mailcluster.loopia.se'; 
-    // $mail->SMTPAuth = true; 
-    // $mail->Username = 'dminfo@dmregnskap.no'; // SMTP username
-    // $mail->Password = 'UjhacNuaj8'; // SMTP password
-    // $mail->SMTPSecure = 'tls'; 
-    // $mail->Port = 587;
-    
-    // $mail->From = 'ajdinsheki@gmail.coim';
-    // $mail->FromName = 'Ajdin';
-    // $mail->addAddress('dminfo@dmregnskap.no', 'Info'); // Add a recipient
-    // $mail->Subject = 'Here is the subject';
-    // $mail->Body = 'This is the HTML message body <b>in bold!</b>';
-    // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-    
-    // if(!$mail->send()) {
-    //  echo 'Message could not be sent.';
-    //  echo 'Mailer Error: ' . $mail->ErrorInfo;
-    // } else {
-    //  echo 'Message has been sent';
-    // }
-?>
 
 <!DOCTYPE html>
 <html>

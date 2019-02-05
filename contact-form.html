@@ -32,7 +32,7 @@
                             <div class="single-contact-box">
                                 <div class="contact-form">
                                     <h2>Send oss en melding</h2>
-                                    <form method="POST">
+                                    <form method="POST" action="./contact-us.php">
                                         <div class="row">
                                             <div class="col-sm-6 col-xs-12">
                                                 <div class="form-group">
@@ -48,7 +48,7 @@
                                         <div class="row">
                                                 <div class="col-sm-12">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control required" id="company-name" placeholder="Selskapsnavn" name="company-name" readonly>
+                                                    <input type="text" class="form-control required" id="company-name" placeholder="Selskapsnavn" name="company-name">
                                                 </div><!--/.form-group-->
                                             </div><!--/.col-->
                                             <div class="col-sm-12">
@@ -66,14 +66,14 @@
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <div class="form-group">
-                                                    <textarea required class="form-control required" rows="7" id="comment" placeholder="Din melding" ></textarea>
+                                                    <textarea required class="form-control required" name="comment" rows="7" id="comment" placeholder="Din melding" ></textarea>
                                                 </div><!--/.form-group-->
                                             </div><!--/.col-->
                                         </div><!--/.row-->
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <div class="single-contact-btn pull-right">
-                                                    <button class="contact-btn" name="submit" type="button">Send</button>
+                                                    <button class="contact-btn" name="submit" type="submit">Send</button>
                                                 </div><!--/.single-single-contact-btn-->
                                             </div><!--/.col-->
                                         </div><!--/.row-->
